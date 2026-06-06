@@ -4,6 +4,21 @@
 
 :root{--accent:#1e40af}
 
+@layer base {
+	html,body,#root{height:100%}
+	body{
+		@apply bg-gradient-to-b from-white via-sky-50 to-white text-slate-900 antialiased;
+		font-family: theme('fontFamily.sans');
+	}
+	h1,h2,h3{color:theme('colors.slate.900')}
+}
+
+@layer components {
+	.glass-card{
+		@apply bg-white/60 backdrop-blur-sm rounded-2xl p-6 shadow-md;
+	}
+}
+
 .container{max-width:1100px}
 
 /* small utility tweaks for consistent spacing */
