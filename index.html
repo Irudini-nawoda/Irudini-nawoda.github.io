@@ -1,104 +1,12 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Portfolio — Your Name</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="#">Your Name</a>
-      <nav class="nav">
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <section class="hero">
-      <div class="container hero-inner">
-        <div class="hero-text">
-          <h1>Hi, I'm Your Name.</h1>
-          <p class="lead">I build clean, accessible, and maintainable user experiences. I focus on front-end development, UI design, and performance.</p>
-          <p><a class="btn" href="#projects">View Projects</a> <a class="btn btn-outline" href="#contact">Get in touch</a></p>
-        </div>
-        <div class="hero-media">
-          <svg width="220" height="220" viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Avatar placeholder">
-            <rect width="220" height="220" rx="20" fill="#E6EEF8"/>
-            <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#2B59A7" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto" font-size="36">YN</text>
-          </svg>
-        </div>
-      </div>
-    </section>
-
-    <section id="about" class="section">
-      <div class="container">
-        <h2>About</h2>
-        <p>I’m a web developer specializing in building fast, accessible, and maintainable user experiences. I enjoy turning ideas into delightful products.</p>
-      </div>
-    </section>
-
-    <section id="projects" class="section">
-      <div class="container">
-        <h2>Projects</h2>
-        <div class="grid projects-grid">
-          <article class="card">
-            <h3>Project One</h3>
-            <p>Short description of project one. Tech stack and role.</p>
-            <p><a href="#" class="link">View project</a></p>
-          </article>
-          <article class="card">
-            <h3>Project Two</h3>
-            <p>Short description of project two. Tech stack and role.</p>
-            <p><a href="#" class="link">View project</a></p>
-          </article>
-          <article class="card">
-            <h3>Project Three</h3>
-            <p>Short description of project three. Tech stack and role.</p>
-            <p><a href="#" class="link">View project</a></p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="skills" class="section">
-      <div class="container">
-        <h2>Skills</h2>
-        <ul class="skills-list">
-          <li>HTML &amp; CSS</li>
-          <li>JavaScript</li>
-          <li>React</li>
-          <li>Accessibility (a11y)</li>
-          <li>Performance</li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="contact" class="section contact">
-      <div class="container">
-        <h2>Contact</h2>
-        <p>If you'd like to work together, email me at <a href="mailto:you@example.com">you@example.com</a> or use the links below.</p>
-        <p class="socials">
-          <a class="link" href="#">GitHub</a> • <a class="link" href="#">LinkedIn</a>
-        </p>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <p>© <span id="year"></span> Your Name. Built with HTML &amp; CSS.</p>
-    </div>
-  </footer>
-
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name — Portfolio</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>

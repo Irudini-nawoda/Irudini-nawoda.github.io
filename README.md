@@ -1,15 +1,22 @@
-# Portfolio — Your Name
 
-Simple static portfolio built with HTML and CSS.
+# React + Vite Portfolio
 
-How to use
+This project is a React + Vite portfolio scaffold using Tailwind CSS and Framer Motion.
 
-- Open `index.html` in a browser.
-- Or run a local server (recommended) with Python:
+Quick start
 
 ```bash
-python3 -m http.server 8000
-# then open http://localhost:8000
+# install deps
+npm install
+
+# run dev server
+npm run dev
+
+# build for production
+npm run build
+
+# preview production build
+npm run preview
 ```
 
-Edit `index.html` to replace the placeholder text, links, and email address.
+Edit files under `src/` to personalize the content (name, bio, projects, and links).
